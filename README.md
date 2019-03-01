@@ -54,3 +54,7 @@ body_part = col.search_with_id('2213', out = 'body_part_colexifications.csv')
 # Author
 
 * Michael Falk
+
+# Licence
+
+* [Creative Commons Share-Alike 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
