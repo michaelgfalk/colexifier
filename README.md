@@ -47,8 +47,8 @@ sibling_id
 ```
 Both `Colexifier.search_with_concept()` and `Colexifier.search_with_id()` return a Pandas DataFrame, making it easy to sort, analyse and export your results. If you wish to save your results at the time you search for them, simply provide a file path to the optional `out` parameter. The results are stored as a csv file:
 ```python
-embers = col.search_with_concept('embers', out = 'bone_colexifications.csv')
-body_part = col.search_with_id('2213', out = 'body_part_colexifications.csv')
+embers = col.search_with_concept('embers', out = 'embers_colex.csv')
+body_part = col.search_with_id('2213', out = 'body_part_colex.csv')
 ```
 
 # Author
